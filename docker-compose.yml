@@ -1,0 +1,30 @@
+version: '3'
+
+volumes:
+  pgdata:
+
+services:
+  estrategia_postgres:
+    restart: always
+    image: kiasaki/alpine-postgres:9.5
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    env_file:
+      - .env
+
+  estrategia_django:
+    build: .
+    image: estrategia-django
+    command: bash -c "./scripts/wait-for-it.sh estrategia_postgres && python manage.py migrate && python manage.py createsuperuser --username admin --email admin@example.com --noinput && python manage.py runserver 0.0.0.0:8080"
+    volumes:
+      - .:/code
+    ports:
+      - "8080:8080"
+    links:
+      - estrategia_postgres
+    depends_on:
+      - estrategia_postgres
+    env_file:
+      - .env

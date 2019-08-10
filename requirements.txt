@@ -1,0 +1,6 @@
+# core webserver framework
+django==2.2.4
+# lib to communicate with postgres
+psycopg2-binary==2.7.4
+# django model for sorting fields
+django-admin-sortable2==0.7.2
