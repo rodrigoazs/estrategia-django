@@ -1,14 +1,11 @@
 # estrategia-django
 
-### Running via Docker compose
+### Execução via Docker compose
 
 ```bash
-# Install docker
+# Instalação do docker
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
-# Change permission to execute script commands
-$ sudo chmod 775 -R scripts/
-
-# Run docker compose
+# Execução do docker compose
 $ docker-compose up --build
 ```
