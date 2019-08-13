@@ -28,6 +28,9 @@ class Aula(models.Model):
     def __str__(self):
         return self.titulo
 
+    def apostila_list(self):
+        return [ex.apostila for ex in Pacote.objects.filter(aula=self).order_by('ordem')]
+
 class Pacote(models.Model):
     apostila = models.ForeignKey(Apostila, on_delete=models.CASCADE)
     aula = models.ForeignKey(Aula, on_delete=models.CASCADE)

@@ -4,7 +4,7 @@
 {% for aula in curso.aula_set.all %}
     <li>{{ aula.titulo }}</li>
     <ul>
-      {% for apostila in aula.ordered_apostila %}
+      {% for apostila in aula.apostila_list %}
       <li>{{ apostila.titulo }} {{ apostila.ordem }}</li>
       {% endfor %}
     </ul>
