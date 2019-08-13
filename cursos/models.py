@@ -29,12 +29,12 @@ class Aula(models.Model):
         return self.titulo
 
 class Pacote(models.Model):
-    class Meta:
-        ordering =  ('ordem',)
-
     apostila = models.ForeignKey(Apostila, on_delete=models.CASCADE)
     aula = models.ForeignKey(Aula, on_delete=models.CASCADE)
     ordem = models.PositiveIntegerField(default=0, blank=False, null=False)
 
     def __str__(self):
         return self.apostila.titulo
+
+    class Meta:
+        ordering =  ['ordem']

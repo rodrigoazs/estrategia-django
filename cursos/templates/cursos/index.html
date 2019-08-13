@@ -1,0 +1,11 @@
+{% load static %}
+
+{% if cursos_list %}
+    <ul>
+    {% for curso in cursos_list %}
+        <li><a href="{% url 'cursos:detail' curso.id %}">{{ curso.titulo }}</a><img src="{{ STATIC_URL }}{{ curso.imagem.url }}"></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

@@ -1,0 +1,12 @@
+<h1>{{ curso.titulo }}</h1>
+{{ curso.descricao }}
+<ul>
+{% for aula in curso.aula_set.all %}
+    <li>{{ aula.titulo }}</li>
+    <ul>
+      {% for apostila in aula.ordered_apostila %}
+      <li>{{ apostila.titulo }} {{ apostila.ordem }}</li>
+      {% endfor %}
+    </ul>
+{% endfor %}
+</ul>
