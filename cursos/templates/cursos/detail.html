@@ -1,12 +1,91 @@
-<h1>{{ curso.titulo }}</h1>
-{{ curso.descricao }}
-<ul>
-{% for aula in curso.aula_set.all %}
-    <li>{{ aula.titulo }}</li>
-    <ul>
-      {% for apostila in aula.apostila_list %}
-      <li>{{ apostila.titulo }} {{ apostila.ordem }}</li>
-      {% endfor %}
-    </ul>
-{% endfor %}
-</ul>
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    {# Required meta tags #}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {# Bootstrap CSS --> #}
+    <link rel="stylesheet" href="{% static "bootstrap/4.3.1/css/bootstrap.min.css" %}">
+
+    <title>Estratégia</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="{% url 'index' %}">Estratégia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'index' %}">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="../../{{ STATIC_URL }}{{ curso.imagem.url }}">
+                        <div class="card-body">
+                            <strong>{{ curso.titulo }}</strong>
+                            <p class="card-text">{{ curso.descricao }}</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                    <div class="accordion" id="accordionExample">
+                        {% if curso.aula_set.all %}
+                          {% for aula in curso.aula_set.all %}
+                          <div class="card">
+                            <div class="card-header" id="heading{{forloop.counter}}">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{forloop.counter}}" aria-expanded="true" aria-controls="collapse{{forloop.counter}}">
+                                  {{ aula.titulo }}
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapse{{forloop.counter}}" class="collapse show" aria-labelledby="heading{{forloop.counter}}" data-parent="#accordionExample">
+                              <div class="card-body">
+                                {% if aula.apostila_list %}
+                                  <ul class="list-group list-group-flush">
+                                    {% for apostila in aula.apostila_list %}
+                                      <li class="list-group-item">{{ forloop.counter }}. {{ apostila.titulo }} {{ apostila.ordem }}</li>
+                                    {% endfor %}
+                                  </ul>
+                                {% else %}
+                                  <p>Sem apostilas adicionadas.</p>
+                                {% endif %}
+                              </div>
+                            </div>
+                          </div>
+                          {% endfor %}
+                        {% else %}
+                          <div class="row">
+                            Sem aulas adicionadas.
+                          </div>
+                        {% endif %}
+                      </div>
+            </div>
+        </div>
+    </div>
+
+    {# Optional JavaScript --> #}
+    {# jQuery first, then Popper.js, then Bootstrap JS #}
+    <script src="{% static "jquery/3.4.1/jquery-3.4.1.slim.min.js" %}"></script>
+    <script src="{% static "jquery/3.4.1/jquery-3.4.1.min.js" %}"></script>
+    <script src="{% static "bootstrap/4.3.1/js/bootstrap.min.js" %}"></script>
+   </body>
+</html>
+

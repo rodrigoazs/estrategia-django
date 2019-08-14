@@ -1,11 +1,60 @@
 {% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    {# Required meta tags #}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{% if cursos_list %}
-    <ul>
-    {% for curso in cursos_list %}
-        <li><a href="{% url 'cursos:detail' curso.id %}">{{ curso.titulo }}</a><img src="{{ STATIC_URL }}{{ curso.imagem.url }}"></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No polls are available.</p>
-{% endif %}
+    {# Bootstrap CSS --> #}
+    <link rel="stylesheet" href="{% static "bootstrap/4.3.1/css/bootstrap.min.css" %}">
+
+    <title>Estratégia</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{% url 'index' %}"></a>Estratégia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'index' %}">Home</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container pt-5">
+        {% if cursos_list %}
+            <table class="table table-striped">
+                    <tbody>
+                        {% for curso in cursos_list %}
+                            <tr>
+                                <th scope="row"><img src="{{ STATIC_URL }}{{ curso.imagem.url }}"></th>
+                                <td>
+                                    <a href="{% url 'cursos:detail' curso.id %}">{{ curso.titulo }}</a>
+                                    <p>{{ curso.descricao }}</p>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+        {% else %}
+            <div class="row">
+                Sem cursos gratuitos disponíveis.
+            </div>
+        {% endif %}
+    </div>
+
+    {# Optional JavaScript --> #}
+    {# jQuery first, then Popper.js, then Bootstrap JS #}
+    <script src="{% static "jquery/3.4.1/jquery-3.4.1.slim.min.js" %}"></script>
+    <script src="{% static "jquery/3.4.1/jquery-3.4.1.min.js" %}"></script>
+    <script src="{% static "bootstrap/4.3.1/js/bootstrap.min.js" %}"></script>
+  </body>
+</html>
+

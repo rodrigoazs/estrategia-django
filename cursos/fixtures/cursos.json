@@ -3,220 +3,220 @@
         "model": "cursos.curso",
         "pk": 1,
         "fields": {
-            "titulo": "Adipisci ipsum consectetur non quisquam labore quiquia.",
-            "descricao": "Dolore consectetur sed magnam numquam. Quaerat eius adipisci dolore velit. Dolorem adipisci velit numquam. Aliquam dolor eius labore. Quiquia quaerat labore amet numquam quiquia. Neque modi quiquia quisquam etincidunt modi. Neque velit voluptatem quiquia tempora ipsum. Neque adipisci modi aliquam quiquia dolorem dolorem modi. Voluptatem amet quiquia voluptatem sed. Modi porro quaerat labore quiquia.",
+            "titulo": "Dolor dolorem neque est quaerat amet.",
+            "descricao": "Modi neque adipisci modi adipisci consectetur quiquia. Dolore sit dolor ut non non. Neque velit amet labore numquam. Non consectetur sit labore ipsum neque. Non quiquia velit velit labore voluptatem neque labore. Etincidunt adipisci aliquam tempora dolore magnam porro. Dolorem tempora dolorem quaerat quisquam non. Dolore quaerat ipsum est. Amet voluptatem sit consectetur consectetur voluptatem non tempora. Voluptatem amet aliquam dolore.",
             "imagem": "static/images/cursos/2019/08/1.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 2,
         "fields": {
-            "titulo": "Porro adipisci quaerat voluptatem ut eius.",
-            "descricao": "Quiquia adipisci voluptatem modi quiquia quisquam. Dolorem dolor voluptatem amet. Quisquam non amet amet etincidunt modi. Quiquia amet quiquia quisquam labore quaerat non. Numquam quaerat eius porro consectetur.",
+            "titulo": "Dolorem sed consectetur eius.",
+            "descricao": "Ipsum sed quisquam etincidunt. Est adipisci dolor adipisci. Ut neque non consectetur quisquam quisquam quaerat tempora. Sed labore labore quisquam amet neque ipsum tempora. Modi aliquam modi neque adipisci labore dolorem. Etincidunt adipisci magnam quiquia quaerat modi. Dolor dolore velit sed ut. Modi ipsum porro dolor. Sit quisquam dolorem amet quisquam dolore dolorem velit. Ipsum consectetur neque aliquam.",
             "imagem": "static/images/cursos/2019/08/2.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 3,
         "fields": {
-            "titulo": "Est tempora magnam sed amet non aliquam eius.",
-            "descricao": "Ut amet adipisci adipisci dolor. Voluptatem eius non neque. Sit est est ipsum etincidunt consectetur. Modi tempora amet etincidunt quisquam. Eius dolore voluptatem aliquam tempora tempora labore ut. Non quisquam quisquam est consectetur velit sed est. Numquam voluptatem dolor numquam velit velit. Eius magnam neque voluptatem consectetur dolore sit.",
+            "titulo": "Modi magnam neque consectetur neque sed dolorem tempora.",
+            "descricao": "Tempora quisquam adipisci voluptatem quisquam labore quiquia porro. Numquam amet adipisci sit quiquia velit tempora aliquam. Etincidunt dolor est quiquia adipisci. Voluptatem neque numquam amet quaerat quiquia. Quaerat labore neque dolorem numquam ipsum aliquam amet. Velit quaerat non labore modi adipisci. Quisquam numquam labore quisquam. Est ut neque voluptatem sed ut dolore numquam.",
             "imagem": "static/images/cursos/2019/08/3.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 4,
         "fields": {
-            "titulo": "Quaerat quaerat quaerat numquam eius.",
-            "descricao": "Consectetur neque labore dolor magnam quiquia. Tempora est numquam tempora voluptatem. Adipisci modi tempora sit velit. Sed quiquia amet dolorem amet labore dolore quiquia. Tempora dolorem neque voluptatem porro quisquam quisquam labore. Ipsum voluptatem porro ut.",
+            "titulo": "Dolore modi neque neque ipsum.",
+            "descricao": "Velit dolore quaerat dolor. Est modi non neque dolore velit velit. Dolore sit dolorem tempora magnam. Numquam quisquam est tempora. Quiquia porro etincidunt velit est est. Velit quisquam quaerat magnam ipsum velit eius dolore. Amet porro neque tempora etincidunt. Quisquam modi amet amet labore. Amet ut sed dolor modi sed labore amet. Non quaerat magnam tempora quaerat etincidunt voluptatem.",
             "imagem": "static/images/cursos/2019/08/4.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 5,
         "fields": {
-            "titulo": "Velit velit sit numquam quaerat dolorem ipsum.",
-            "descricao": "Dolore velit dolor modi consectetur sed non aliquam. Consectetur porro adipisci quaerat numquam modi ipsum sit. Dolorem consectetur quiquia neque. Consectetur adipisci amet etincidunt. Ipsum amet modi etincidunt dolor numquam eius. Quisquam quisquam dolor aliquam tempora labore quisquam consectetur. Sed quiquia ipsum numquam. Ipsum modi magnam neque dolore modi tempora neque. Dolor numquam etincidunt non dolore. Labore tempora sed consectetur etincidunt.",
+            "titulo": "Est velit amet labore adipisci porro modi quiquia.",
+            "descricao": "Labore numquam neque dolore. Tempora dolore modi magnam numquam ut est. Modi dolore numquam est consectetur dolor dolorem. Est dolore magnam ut quaerat velit. Ut velit ipsum porro adipisci magnam. Dolor neque est porro.",
             "imagem": "static/images/cursos/2019/08/5.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 6,
         "fields": {
-            "titulo": "Labore quaerat quisquam modi dolorem.",
-            "descricao": "Numquam consectetur consectetur dolor dolor ipsum. Numquam non quaerat quisquam dolore consectetur sit. Magnam quaerat porro dolore eius labore est. Quiquia eius consectetur tempora quiquia magnam sed. Dolor ut neque ut porro porro. Velit amet aliquam labore velit quaerat.",
+            "titulo": "Dolor non est neque.",
+            "descricao": "Ipsum sed neque dolore. Adipisci etincidunt labore velit quaerat. Ut quiquia dolore modi magnam. Sit eius amet etincidunt non. Tempora sed adipisci quaerat quisquam. Sed modi ut numquam dolorem. Tempora porro quiquia modi porro quiquia consectetur voluptatem. Ipsum sed tempora quisquam. Quiquia modi quiquia dolor numquam. Quiquia dolor labore quisquam amet dolorem.",
             "imagem": "static/images/cursos/2019/08/6.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 7,
         "fields": {
-            "titulo": "Eius quaerat tempora non sit quiquia labore quiquia.",
-            "descricao": "Quiquia ut amet quisquam consectetur ipsum tempora ut. Sit dolor etincidunt adipisci magnam eius quiquia labore. Adipisci ut est ipsum neque consectetur neque eius. Velit quisquam dolorem numquam. Amet etincidunt quiquia dolorem. Numquam voluptatem quiquia quaerat. Velit voluptatem dolorem quiquia.",
+            "titulo": "Est porro labore modi dolor etincidunt.",
+            "descricao": "Amet tempora quaerat aliquam. Numquam amet numquam dolorem dolor porro quiquia. Quiquia quiquia numquam quisquam. Porro non dolorem dolorem. Sit porro ipsum etincidunt tempora. Dolore dolore velit dolorem eius. Quisquam consectetur eius non sed labore est porro. Quiquia dolorem tempora numquam eius modi labore.",
             "imagem": "static/images/cursos/2019/08/7.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 8,
         "fields": {
-            "titulo": "Aliquam ipsum dolore consectetur.",
-            "descricao": "Dolore etincidunt tempora numquam labore labore consectetur. Porro quaerat sed aliquam etincidunt. Est velit modi velit sit adipisci dolorem. Tempora quaerat ipsum est tempora dolor. Non amet ipsum magnam ipsum neque numquam. Numquam labore dolore voluptatem. Dolore labore aliquam ipsum neque.",
+            "titulo": "Aliquam ut sed ipsum quaerat ipsum.",
+            "descricao": "Consectetur velit est sit sit magnam numquam neque. Non aliquam modi neque. Sed quiquia dolore velit. Dolorem etincidunt quaerat ut. Modi ipsum tempora sed porro labore. Numquam ipsum etincidunt consectetur. Voluptatem neque quiquia labore. Ut tempora neque est. Velit sit amet ipsum labore sed. Velit est etincidunt dolor ipsum tempora amet.",
             "imagem": "static/images/cursos/2019/08/8.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 9,
         "fields": {
-            "titulo": "Labore neque porro quisquam velit sit etincidunt dolore.",
-            "descricao": "Amet est tempora numquam sit modi amet. Tempora neque amet magnam porro adipisci modi. Amet quaerat sed amet dolorem. Velit non amet modi quisquam aliquam velit dolorem. Dolorem quiquia dolore aliquam numquam dolorem. Dolore porro quaerat neque. Sed aliquam quiquia quaerat dolorem est dolor.",
+            "titulo": "Quiquia porro voluptatem quisquam porro dolore ipsum.",
+            "descricao": "Numquam tempora ut modi porro est numquam quisquam. Aliquam dolorem voluptatem non neque. Etincidunt aliquam adipisci quisquam dolorem eius porro. Etincidunt porro voluptatem sit numquam etincidunt. Numquam ut quaerat non. Dolore neque sed dolore. Eius neque tempora adipisci sed dolore numquam consectetur.",
             "imagem": "static/images/cursos/2019/08/9.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 10,
         "fields": {
-            "titulo": "Eius est magnam adipisci magnam.",
-            "descricao": "Dolore quiquia etincidunt adipisci sit eius quiquia quaerat. Tempora porro magnam est. Adipisci dolorem porro ipsum. Amet ipsum quisquam quiquia est dolorem quiquia quiquia. Velit non porro modi. Velit consectetur dolore eius.",
+            "titulo": "Amet tempora sit aliquam magnam adipisci quaerat magnam.",
+            "descricao": "Ut non tempora labore. Aliquam eius voluptatem dolor dolor dolor dolorem etincidunt. Dolor eius neque ipsum etincidunt dolor amet adipisci. Dolorem porro dolore dolorem. Dolor magnam adipisci magnam sit magnam.",
             "imagem": "static/images/cursos/2019/08/10.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 11,
         "fields": {
-            "titulo": "Dolore neque dolor sit consectetur.",
-            "descricao": "Aliquam dolor porro aliquam. Ut neque neque ut. Quaerat consectetur quiquia est porro dolore. Dolore etincidunt etincidunt quaerat quaerat consectetur velit quiquia. Neque dolore magnam magnam consectetur.",
+            "titulo": "Porro numquam ut amet.",
+            "descricao": "Magnam est quiquia aliquam. Consectetur eius amet magnam velit dolor ipsum sed. Consectetur eius dolor sit. Ipsum voluptatem sed porro. Quisquam etincidunt ut eius sit quaerat dolorem ut. Non neque voluptatem etincidunt magnam magnam quiquia modi. Adipisci voluptatem eius amet tempora sed. Labore porro sit adipisci etincidunt. Amet etincidunt eius porro quiquia amet non etincidunt. Neque ipsum adipisci quaerat dolorem labore quiquia est.",
             "imagem": "static/images/cursos/2019/08/11.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 12,
         "fields": {
-            "titulo": "Quiquia sed adipisci tempora porro dolore.",
-            "descricao": "Consectetur sit quisquam labore tempora quaerat dolore quiquia. Voluptatem neque numquam ipsum est. Consectetur neque non numquam neque modi eius sed. Quisquam magnam dolor ut ut consectetur. Consectetur neque numquam numquam. Voluptatem numquam dolorem non quaerat dolore. Est sed amet eius amet labore quisquam sit. Dolor non sed magnam etincidunt etincidunt est. Dolorem adipisci etincidunt eius ipsum modi. Dolor dolorem quisquam magnam.",
+            "titulo": "Dolore modi labore labore.",
+            "descricao": "Adipisci modi quiquia consectetur eius. Modi ut quisquam magnam sit quaerat. Quaerat quiquia tempora adipisci est non labore eius. Dolore quaerat consectetur dolor velit adipisci aliquam. Sed amet quaerat porro porro amet eius adipisci. Neque quaerat consectetur magnam magnam.",
             "imagem": "static/images/cursos/2019/08/12.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 13,
         "fields": {
-            "titulo": "Sed modi sit ut.",
-            "descricao": "Labore non consectetur est sit ipsum sit amet. Velit labore eius tempora quiquia consectetur numquam modi. Eius eius ut adipisci eius amet. Tempora magnam adipisci consectetur. Tempora ut sed dolore porro sit sit velit. Consectetur ipsum dolore quisquam ipsum numquam ipsum amet.",
+            "titulo": "Non sit ipsum amet quiquia.",
+            "descricao": "Velit tempora non porro ut quaerat dolore velit. Etincidunt ipsum quiquia non velit sed dolore. Magnam amet adipisci amet numquam. Sed tempora sed non quaerat labore. Sed adipisci labore porro quiquia tempora quaerat ipsum. Ipsum dolore amet amet ut eius modi.",
             "imagem": "static/images/cursos/2019/08/13.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 14,
         "fields": {
-            "titulo": "Eius amet sit non tempora magnam magnam amet.",
-            "descricao": "Numquam amet modi quiquia. Quaerat etincidunt aliquam modi neque quaerat dolore. Modi tempora sed aliquam magnam dolore quiquia quisquam. Amet non dolore sit sit est ipsum. Dolore labore aliquam labore voluptatem neque aliquam sit. Magnam labore sed dolorem dolorem etincidunt.",
+            "titulo": "Sit tempora dolor quisquam dolorem.",
+            "descricao": "Est velit sed quisquam. Consectetur voluptatem magnam quiquia sit ut modi porro. Ipsum est quaerat dolore dolorem ipsum. Velit amet quiquia dolore non dolorem. Sed ipsum magnam eius. Aliquam etincidunt quiquia magnam dolore est adipisci etincidunt.",
             "imagem": "static/images/cursos/2019/08/14.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 15,
         "fields": {
-            "titulo": "Neque quisquam quaerat dolore.",
-            "descricao": "Dolor etincidunt numquam quaerat est adipisci dolorem labore. Dolorem numquam dolorem sit adipisci. Amet eius dolorem dolorem est velit. Labore velit adipisci quaerat dolore adipisci aliquam quiquia. Modi aliquam labore adipisci quaerat sed. Aliquam voluptatem magnam magnam modi quisquam. Amet porro amet est. Est magnam amet magnam ipsum.",
+            "titulo": "Etincidunt modi quisquam magnam labore.",
+            "descricao": "Quiquia ipsum modi porro aliquam neque adipisci. Sed aliquam amet amet dolor. Est porro tempora adipisci. Dolore labore voluptatem dolore labore numquam ipsum numquam. Quiquia eius est non sed numquam. Eius neque etincidunt neque amet.",
             "imagem": "static/images/cursos/2019/08/15.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 16,
         "fields": {
-            "titulo": "Sed etincidunt sed etincidunt.",
-            "descricao": "Consectetur dolorem adipisci magnam labore ipsum labore modi. Quiquia tempora voluptatem voluptatem aliquam. Voluptatem ut magnam ut consectetur quaerat. Dolorem labore eius consectetur aliquam ipsum ipsum ut. Quaerat ipsum dolorem neque sed porro non quisquam.",
+            "titulo": "Modi dolore non sed amet.",
+            "descricao": "Aliquam consectetur non ut dolorem sit non. Aliquam labore non neque dolorem tempora dolore numquam. Consectetur sit numquam non quiquia quiquia quisquam tempora. Dolorem etincidunt ipsum etincidunt dolorem amet quisquam. Neque amet tempora quiquia sit porro eius sit. Dolorem adipisci dolor ipsum.",
             "imagem": "static/images/cursos/2019/08/16.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 17,
         "fields": {
-            "titulo": "Magnam tempora numquam aliquam.",
-            "descricao": "Voluptatem tempora sed tempora tempora. Adipisci magnam eius voluptatem adipisci amet sed voluptatem. Amet etincidunt dolor eius magnam. Neque amet dolore tempora voluptatem consectetur dolor dolor. Adipisci modi voluptatem neque modi. Sed sit quaerat consectetur ipsum tempora dolor porro. Dolor voluptatem dolore adipisci velit sed porro.",
+            "titulo": "Quaerat eius modi voluptatem labore.",
+            "descricao": "Quaerat eius dolorem ut numquam dolorem sit. Voluptatem eius est labore quaerat voluptatem. Est adipisci ut amet quaerat eius. Quiquia amet est porro magnam neque amet. Magnam etincidunt sed aliquam.",
             "imagem": "static/images/cursos/2019/08/17.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 18,
         "fields": {
-            "titulo": "Numquam eius consectetur dolor.",
-            "descricao": "Consectetur sed sed dolor dolore dolor quiquia porro. Quiquia modi dolorem ipsum dolore quisquam neque. Modi eius ut ut. Sit eius ut velit labore eius consectetur. Sit aliquam quisquam tempora. Dolor eius consectetur quisquam dolorem dolor consectetur. Labore velit dolorem quiquia quisquam est. Ipsum eius quisquam quiquia quisquam velit amet quisquam. Adipisci amet modi non numquam dolore quiquia. Neque magnam quaerat dolorem modi dolor.",
+            "titulo": "Quisquam dolor dolorem aliquam eius quiquia magnam.",
+            "descricao": "Est quisquam numquam ut quaerat dolor. Eius amet tempora numquam etincidunt porro aliquam consectetur. Non eius dolore quiquia quiquia dolorem modi. Etincidunt dolor consectetur tempora sed non. Magnam adipisci labore amet numquam adipisci. Est modi labore consectetur non neque numquam numquam. Ut sit quisquam quiquia quiquia sed. Consectetur quiquia adipisci modi magnam aliquam velit eius. Voluptatem tempora ut quiquia porro consectetur.",
             "imagem": "static/images/cursos/2019/08/18.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 19,
         "fields": {
-            "titulo": "Ut neque labore quisquam numquam labore dolorem labore.",
-            "descricao": "Quiquia sed ipsum velit etincidunt ut amet. Tempora magnam voluptatem magnam quaerat dolorem non. Est dolorem etincidunt sed. Quaerat neque labore neque non. Amet neque dolorem quisquam quaerat. Labore dolor non sit. Velit quaerat modi consectetur amet. Est labore etincidunt ut. Magnam eius tempora non adipisci aliquam consectetur dolor. Dolorem dolor quiquia etincidunt numquam.",
+            "titulo": "Ut quisquam sed quiquia porro quaerat.",
+            "descricao": "Quaerat labore modi sed porro. Dolor numquam porro non. Tempora labore numquam eius. Magnam quisquam aliquam neque quaerat voluptatem. Tempora numquam sed ut porro neque ipsum etincidunt. Magnam non voluptatem consectetur sed adipisci. Eius quiquia dolorem dolor modi dolore magnam labore. Consectetur sed quiquia sit tempora. Dolor numquam dolor ut. Dolor magnam dolorem quaerat.",
             "imagem": "static/images/cursos/2019/08/19.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     },
     {
         "model": "cursos.curso",
         "pk": 20,
         "fields": {
-            "titulo": "Eius ipsum voluptatem modi tempora quaerat sed dolor.",
-            "descricao": "Ut quisquam consectetur consectetur voluptatem sit porro dolore. Aliquam amet amet voluptatem dolor porro velit. Dolor tempora dolor voluptatem. Numquam voluptatem voluptatem eius quaerat dolore quisquam est. Numquam magnam porro dolore. Modi dolor consectetur quisquam tempora dolor etincidunt. Ipsum non labore dolor sed amet eius amet. Dolor est dolor magnam numquam quiquia magnam.",
+            "titulo": "Etincidunt porro porro neque.",
+            "descricao": "Sed dolorem labore est amet dolor amet. Quaerat amet ipsum etincidunt eius. Ut velit amet quaerat quaerat aliquam sed. Consectetur quisquam sit numquam adipisci labore amet amet. Consectetur magnam sed aliquam sit. Non porro amet ipsum amet dolor. Velit aliquam quaerat non non. Dolor sit labore dolorem tempora voluptatem quaerat. Labore quaerat quaerat velit ut quiquia. Dolorem modi eius eius ipsum quiquia.",
             "imagem": "static/images/cursos/2019/08/20.jpg",
-            "created_at": "2019-08-11 11:45:45.311197",
-            "updated_at": "2019-08-11 11:45:45.311197"
+            "created_at": "2019-08-14 07:23:10.679280",
+            "updated_at": "2019-08-14 07:23:10.679280"
         }
     }
 ]
