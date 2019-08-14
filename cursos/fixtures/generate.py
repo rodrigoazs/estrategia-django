@@ -1,3 +1,10 @@
+"""Script para gerar aleatoriamente cursos, aulas, 
+apostilas e suas relações ManyToMany.
+
+As relações são geradas obtendo uma aula e uma apostila
+de forma aleatória e com reposição.
+"""
+
 import os
 import lorem
 import json
