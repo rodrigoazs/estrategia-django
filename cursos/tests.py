@@ -2,11 +2,33 @@ from django.test import TestCase
 from django.urls import reverse
 from .models import Curso, Aula, Apostila, Pacote
 
+class AulaModelTests(TestCase):
+
+    def test_aula_apostila_list(self):
+        """
+        apostila_list retorna uma lista de apostilas de uma
+        determinada Aula considerando o campo ordem.
+        O ordering definido no Meta não parece ter atribuído
+        a ordenação às queries.
+        """
+        curso = Curso.objects.create(titulo='Future test.',
+                                     imagem='/static/images/cursos/2019/08/1.jpg')
+        aula = Aula.objects.create(titulo='Future test.', curso=curso)
+        apostilas = [Apostila.objects.create(titulo='Apostila teste 1'),
+                     Apostila.objects.create(titulo='Apostila teste 2'),
+                     Apostila.objects.create(titulo='Apostila teste 3'),]
+        pacotes = [Pacote.objects.create(apostila=apostilas[0], aula=aula, ordem=2),
+                   Pacote.objects.create(apostila=apostilas[1], aula=aula, ordem=1),
+                   Pacote.objects.create(apostila=apostilas[2], aula=aula, ordem=0),]
+        self.assertQuerysetEqual(aula.apostila_list(), ['<Apostila: Apostila teste 3>',
+                                                        '<Apostila: Apostila teste 2>',
+                                                        '<Apostila: Apostila teste 1>'])
+
 class CursoIndexViewTests(TestCase):
     def test_no_cursos(self):
         """
         Se não existir nenhum curso a mensagem
-        "Sem cursos gratuitos disponíveis." é mostrada.
+        Sem cursos gratuitos disponíveis. é mostrada.
         """
         response = self.client.get(reverse('index'))
         self.assertEqual(response.status_code, 200)
@@ -28,7 +50,7 @@ class CursoDetailViewTests(TestCase):
         """
         Página detalhada de um curso inexistente.
         """
-        url = reverse('cursos:detail', args=(99999,))
+        url = reverse('cursos:detail', args=(0,))
         response = self.client.get(url)
         self.assertEqual(response.status_code, 404)
 
