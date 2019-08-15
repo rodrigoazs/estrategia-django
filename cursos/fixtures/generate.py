@@ -1,4 +1,4 @@
-"""Script para gerar aleatoriamente cursos, aulas, 
+"""Script para gerar aleatoriamente cursos, aulas,
 apostilas e suas relações ManyToMany.
 
 As relações são geradas obtendo uma aula e uma apostila
@@ -6,11 +6,11 @@ de forma aleatória e com reposição.
 """
 
 import os
-import lorem
 import json
 import datetime
 import random
 import urllib.request
+import lorem
 
 LOREM_PICSUM = 'https://picsum.photos/200/150/?blur=2'
 STATIC_PATH = 'static/images/cursos/{}/{}'
@@ -51,12 +51,12 @@ def generate():
         model = {'model': 'cursos.aula',
                  'pk': pk,
                  'fields': {
-                    'titulo': ' '.join(lorem.sentence().split()[:2]),
-                    'curso': random.randint(1, CURSOS_SIZE),
-                    'created_at': str(current_time),
-                    'updated_at': str(current_time),
-                    }
-                 }
+                     'titulo': ' '.join(lorem.sentence().split()[:2]),
+                     'curso': random.randint(1, CURSOS_SIZE),
+                     'created_at': str(current_time),
+                     'updated_at': str(current_time),
+                     }
+                }
         data.append(model)
         print('Gerado aula {}'.format(pk))
 
@@ -65,11 +65,11 @@ def generate():
         model = {'model': 'cursos.apostila',
                  'pk': pk,
                  'fields': {
-                    'titulo': ' '.join(lorem.sentence().split()[:3]),
-                    'created_at': str(current_time),
-                    'updated_at': str(current_time),
-                    }
-                 }
+                     'titulo': ' '.join(lorem.sentence().split()[:3]),
+                     'created_at': str(current_time),
+                     'updated_at': str(current_time),
+                     }
+                }
         data.append(model)
         print('Gerado apostila {}'.format(pk))
 
@@ -78,10 +78,10 @@ def generate():
         model = {'model': 'cursos.pacote',
                  'pk': pk,
                  'fields': {
-                    'apostila': random.randint(1, APOSTILAS_SIZE),
-                    'aula': random.randint(1, AULAS_SIZE),
-                    }
-                 }
+                     'apostila': random.randint(1, APOSTILAS_SIZE),
+                     'aula': random.randint(1, AULAS_SIZE),
+                     }
+                }
         data.append(model)
         print('Gerado pacote {}'.format(pk))
 
