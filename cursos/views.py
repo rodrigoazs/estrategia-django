@@ -1,4 +1,5 @@
 from django.views import generic
+from django.contrib.postgres.search import TrigramSimilarity
 
 from .models import Curso, Pacote
 
@@ -10,6 +11,9 @@ class IndexView(generic.ListView):
 
     def get_queryset(self):
         return Curso.objects.all()
+        '''return Curso.objects.annotate(
+                similarity=TrigramSimilarity('titulo', 'tempora modi'),
+            ).filter(similarity__gt=0.1).order_by('-similarity')'''
 
 class DetailView(generic.DetailView):
     model = Curso
